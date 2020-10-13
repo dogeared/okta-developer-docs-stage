@@ -1,0 +1,1559 @@
+{
+	"info": {
+		"_postman_id": "99d020e8-7f80-4069-bf97-10fd11c38cea",
+		"name": "Identity Providers (Okta API)",
+		"description": "Includes templates for Social and SAML identity provider operations.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "IdP User Operations",
+			"item": [
+				{
+					"name": "Get Linked User for IdP",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/users/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"users",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Linked IdP Users",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/users?expand=user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"users"
+							],
+							"query": [
+								{
+									"key": "expand",
+									"value": "user"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Linked IdPs for User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/users/{{userId}}/idps",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"{{userId}}",
+								"idps"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Link IdP User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"externalId\": \"externalId\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/users/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"users",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Unlink IdP User",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/users/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"users",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Key Store Operations",
+			"item": [
+				{
+					"name": "Add X.509 Certificate Public Key",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"x5c\": [\n      \"MIIDnjCCAoagAwIBAgIGAVG3MN+PMA0GCSqGSIb3DQEBBQUAMIGPMQswCQYDVQQGEwJVUzETMBEG A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU MBIGA1UECwwLU1NPUHJvdmlkZXIxEDAOBgNVBAMMB2V4YW1wbGUxHDAaBgkqhkiG9w0BCQEWDWlu Zm9Ab2t0YS5jb20wHhcNMTUxMjE4MjIyMjMyWhcNMjUxMjE4MjIyMzMyWjCBjzELMAkGA1UEBhMC VVMxEzARBgNVBAgMCkNhbGlmb3JuaWExFjAUBgNVBAcMDVNhbiBGcmFuY2lzY28xDTALBgNVBAoM BE9rdGExFDASBgNVBAsMC1NTT1Byb3ZpZGVyMRAwDgYDVQQDDAdleGFtcGxlMRwwGgYJKoZIhvcN AQkBFg1pbmZvQG9rdGEuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtcnyvuVC rsFEKCwHDenS3Ocjed8eWDv3zLtD2K/iZfE8BMj2wpTfn6Ry8zCYey3mWlKdxIybnV9amrujGRnE 0ab6Q16v9D6RlFQLOG6dwqoRKuZy33Uyg8PGdEudZjGbWuKCqqXEp+UKALJHV+k4wWeVH8g5d1n3 KyR2TVajVJpCrPhLFmq1Il4G/IUnPe4MvjXqB6CpKkog1+ThWsItPRJPAM+RweFHXq7KfChXsYE7 Mmfuly8sDQlvBmQyxZnFHVuiPfCvGHJjpvHy11YlHdOjfgqHRvZbmo30+y0X/oY/yV4YEJ00LL6e JWU4wi7ViY3HP6/VCdRjHoRdr5L/DwIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQCzzhOFkvyYLNFj 2WDcq1YqD4sBy1iCia9QpRH3rjQvMKDwQDYWbi6EdOX0TQ/IYR7UWGj+2pXd6v0t33lYtoKocp/4 lUvT3tfBnWZ5KnObi+J2uY2teUqoYkASN7F+GRPVOuMVoVgm05ss8tuMb2dLc9vsx93sDt+XlMTv /2qi5VPwaDtqduKkzwW9lUfn4xIMkTiVvCpe0X2HneD2Bpuao3/U8Rk0uiPfq6TooWaoW3kjsmEr hEAs9bA7xuqo1KKY9CdHcFhkSsMhoeaZylZHtzbnoipUlQKSLMdJQiiYZQ0bYL83/Ta9fulr1EER ICMFt3GUmtYaZZKHpWSfdJp9\"\n  ]\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/credentials/keys",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"credentials",
+								"keys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Key",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/credentials/keys/{{keyId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"credentials",
+								"keys",
+								"{{keyId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Keys",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/credentials/keys",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"credentials",
+								"keys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Key",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/credentials/keys/{{keyId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"credentials",
+								"keys",
+								"{{keyId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Lifecycle Operations",
+			"item": [
+				{
+					"name": "Activate IdP",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/lifecycle/activate",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"lifecycle",
+								"activate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deactivate IdP",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/lifecycle/deactivate",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"lifecycle",
+								"deactivate"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Signing Key Store Operations",
+			"item": [
+				{
+					"name": "Generate Certificate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/keys/generate?validityYears={{validityYears}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"keys",
+								"generate"
+							],
+							"query": [
+								{
+									"key": "validityYears",
+									"value": "{{validityYears}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Share/Clone Certificate",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/keys/{{keyId}}/clone?targetIdpId={{targetIdpId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"keys",
+								"{{keyId}}",
+								"clone"
+							],
+							"query": [
+								{
+									"key": "targetIdpId",
+									"value": "{{targetIdpId}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Signing Certificate",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"id\": \"0oa1k5d68qR2954hb0g4\",\n  \"type\": \"SAML2\",\n  \"name\": \"Example IdP\",\n  \"protocol\": {\n    \"type\": \"SAML2\",\n    \"endpoints\": {\n      \"sso\": {\n        \"url\": \"https://idp.example.com/saml2/sso\",\n        \"binding\": \"HTTP-REDIRECT\",\n        \"destination\": \"https://idp.example.com/saml2/sso\"\n      },\n      \"acs\": {\n        \"binding\": \"HTTP-POST\",\n        \"type\": \"INSTANCE\"\n      }\n    },\n    \"algorithms\": {\n      \"request\": {\n        \"signature\": {\n          \"algorithm\": \"SHA-256\",\n          \"scope\": \"REQUEST\"\n        }\n      },\n      \"response\": {\n        \"signature\": {\n          \"algorithm\": \"SHA-256\",\n          \"scope\": \"ANY\"\n        }\n      }\n    },\n    \"credentials\": {\n      \"trust\": {\n        \"issuer\": \"https://idp.example.com\",\n        \"audience\": \"https://www.okta.com/saml2/service-provider/spCQJRNaaxs7ANqKBO7M\",\n        \"kid\": \"74bb2164-e0c8-4457-862b-7c29ba6cd2c9\"\n      },\n      \"signing\": {\n        \"kid\": \"QSf6YfQKrNUyjOAhuV64mrpiYJryciy6ZWsSU5rY4cs\"\n      }\n    } \n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.subjectNameId\",\n        \"type\": \"BUILT_IN\"\n      },\n      \"format\": [\n        \"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified\"\n      ],\n      \"filter\": null,\n      \"matchType\": \"USERNAME\"\n    },\n    \"maxClockSkew\": 120000\n  } \n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Certificate",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/keys/{{keyId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"keys",
+								"{{keyId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Certificates",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/keys",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"keys"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate CSR in PKCS#10",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/pkcs10"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"subject\": {\n    \"countryName\"            : \"US\",\n    \"stateOrProvinceName\"    : \"California\",\n    \"localityName\"           : \"San Francisco\",\n    \"organizationName\"       : \"Okta, Inc.\",\n    \"organizationalUnitName\" : \"Dev\",\n    \"commonName\"             : \"SP Issuer\"\n  },\n  \"subjectAltNames\": \n    {\n      \"dnsNames\": [ \"dev.example.com\" ] \n    }\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/csrs",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"csrs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Generate CSR in JSON",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"subject\": {\n    \"countryName\"            : \"US\",\n    \"stateOrProvinceName\"    : \"California\",\n    \"localityName\"           : \"San Francisco\",\n    \"organizationName\"       : \"Okta, Inc.\",\n    \"organizationalUnitName\" : \"Dev\",\n    \"commonName\"             : \"SP Issuer\"\n  },\n  \"subjectAltNames\": \n    {\n      \"dnsNames\": [ \"dev.example.com\" ] \n    }\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/csrs",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"csrs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Publish CSR with PEM",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-pem-file"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "-----BEGIN CERTIFICATE-----\nMIIDmjCCAoKgAwIBAgIGAVdZO+NDMA0GCSqGSIb3DQEBBQUAMIGNMQswCQYDVQQGEwJVUzETMBEG\nA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU\nMBIGA1UECwwLU1NPUHJvdmlkZXIxDjAMBgNVBAMMBXl1bGl1MRwwGgYJKoZIhvcNAQkBFg1pbmZv\nQG9rdGEuY29tMB4XDTE2MDkyMzIyNDY1OVoXDTI2MDkyMzIyNDc1OFowgY0xCzAJBgNVBAYTAlVT\nMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYDVQQKDARP\na3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEOMAwGA1UEAwwFeXVsaXUxHDAaBgkqhkiG9w0BCQEW\nDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQChDn3mwj4Mbw/l\ntJnbaqSclNu5GfHqSBdaExjnTtWnuFaE3k9zjwUnlTcYEx2ZDYCapZxOyBPDhKnqjNjS661PS/gl\naYrcG3R04hCynN8RnwqmUYlxTo9qe2O7E9JRGU4Nltj+QUgSX92VVhCT7ZhaiPEXj5eA5drA1KB2\ndp435EIYJYKCAkWm4ko4G8TsOicmuc+8BcGLvxu4/qnowmte0dcOF77Dmy0kLitu5NBNCNmZaIJS\nxm+eFR5tZi5+Ykmzdg7AMzfF1eDlVqSl4KTQk85U25MW2rE3WqIcyNvlg93X6BR4wX5OHOq9cLah\nz5CD8Dk8hozMvBET/6FAij7hAgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAFSAvZLgkLvFzszKRr84\nNaW7lsPkrNiZ15DDE1F570FIjA8CsAMPpAN4ZXl4QmzIWNiovNErjItyZh3yMnDZGUaSbBP/pFDX\nfidV7VVd+6MfC2iN9KBsqriPOg3FiE1ZcOiR4mx8s+bJisXMQALSCRQnZVnYjWhXe39CaNtNapwP\noObJL2j/zUfwfBm1EnQopiZTm5Q5TaPflJMnoMiD0BF3xNwEDHbYjbUzpA9FBcqKnJvEOZhulJiX\n04vZQoWnXn0HzJr6+TNt37xldWLL6YIk+ssZhTaIi0AcOrrjRIZn0ygLCuQA7s5D/QhidcaYRfr+\nLKb+mcxG4jRE3rCDy1E=\n-----END CERTIFICATE-----\n"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/csrs/{{csrId}}/lifecycle/publish",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"csrs",
+								"{{csrId}}",
+								"lifecycle",
+								"publish"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Revoke CSR",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/csrs/{{csrId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"csrs",
+								"{{csrId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List CSRs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/csrs",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"csrs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get CSR",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/{{idpId}}/credentials/csrs/{{csrId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"{{idpId}}",
+								"credentials",
+								"csrs",
+								"{{csrId}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Transaction Operations",
+			"item": [
+				{
+					"name": "Get IdP Transaction",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get IdP Tx Source User",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/source",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"source"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Target User for IdP Provision Transaction",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/target",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"target"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Users for IdP Link Transaction",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/users",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Provision IdP User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"profile\": {\n    \"userType\": \"Social\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/lifecycle/jit",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"lifecycle",
+								"jit"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Link IdP User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"profile\": {\n    \"userType\": \"Social\"\n  }\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/lifecycle/confirm/{{userId}}",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"lifecycle",
+								"confirm",
+								"{{userId}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Finish IdP Transaction",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"sessionToken\": \"{{sessionToken}}\"\n}"
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/finish",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"finish"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cancel IdP Transaction",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "SSWS {{apikey}}"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{url}}/api/v1/idps/tx/{{txId}}/cancel",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"idps",
+								"tx",
+								"{{txId}}",
+								"cancel"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Add Generic OIDC IdP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n      \"type\": \"OIDC\",\n      \"name\": \"Example OpenID Connect IdP\",\n      \"protocol\": {\n        \"algorithms\": {\n          \"request\": {\n            \"signature\": {\n              \"algorithm\": \"SHA-256\",\n              \"scope\": \"REQUEST\"\n            }\n          },\n          \"response\": {\n            \"signature\": {\n              \"algorithm\": \"SHA-256\",\n              \"scope\": \"ANY\"\n            }\n          }\n        },\n        \"endpoints\": {\n          \"acs\": {\n            \"binding\": \"HTTP-POST\",\n            \"type\": \"INSTANCE\"\n          },\n          \"authorization\": {\n            \"binding\": \"HTTP-REDIRECT\",\n            \"url\": \"https://idp.example.com/authorize\"\n          },\n          \"token\": {\n            \"binding\": \"HTTP-POST\",\n            \"url\": \"https://idp.example.com/token\"\n          },\n          \"userInfo\": {\n            \"binding\": \"HTTP-REDIRECT\",\n            \"url\": \"https://idp.example.com/userinfo\"\n          },\n          \"jwks\": {\n            \"binding\": \"HTTP-REDIRECT\",\n            \"url\": \"https://idp.example.com/keys\"\n          }\n        },\n        \"scopes\": [\n          \"openid\"\n        ],\n        \"type\": \"OIDC\",\n        \"credentials\": {\n          \"client\": {\n            \"client_id\": \"your-client-id\",\n            \"client_secret\": \"your-client-secret\"\n          }\n        },\n        \"issuer\": {\n          \"url\": \"https://idp.example.com\"\n        }\n      },\n      \"policy\": {\n        \"accountLink\": {\n          \"action\": \"AUTO\",\n          \"filter\": null\n        },\n        \"provisioning\": {\n          \"action\": \"AUTO\",\n          \"conditions\": {\n            \"deprovisioned\": {\n              \"action\": \"NONE\"\n            },\n            \"suspended\": {\n              \"action\": \"NONE\"\n            }\n          },\n          \"groups\": {\n            \"action\": \"NONE\"\n          }\n        },\n        \"maxClockSkew\": 120000,\n        \"subject\": {\n          \"userNameTemplate\": {\n            \"template\": \"idpuser.email\"\n          },\n          \"matchType\": \"USERNAME\"\n        }\n      }\n    }"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add SAML2 IdP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\": \"SAML2\",\n  \"name\": \"Example SAML IdP\",\n  \"status\": \"ACTIVE\",\n  \"protocol\": {\n    \"type\": \"SAML2\",\n    \"endpoints\": {\n      \"sso\": {\n        \"url\": \"https://idp.example.com\",\n        \"binding\": \"HTTP-POST\",\n        \"destination\": \"https://idp.example.com\"\n      },\n      \"acs\": {\n        \"binding\": \"HTTP-POST\",\n        \"type\": \"INSTANCE\"\n      }\n    },\n    \"algorithms\": {\n      \"request\": {\n        \"signature\": {\n          \"algorithm\": \"SHA-256\",\n          \"scope\": \"REQUEST\"\n        }\n      },\n      \"response\": {\n        \"signature\": {\n          \"algorithm\": \"SHA-256\",\n          \"scope\": \"ANY\"\n        }\n      }\n    },\n    \"credentials\": {\n      \"trust\": {\n        \"issuer\": \"https://idp.example.com\",\n        \"audience\": \"http://www.okta.com/123\",\n        \"kid\": \"{{keyId}}\"\n      }\n    }\n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      },\n      \"conditions\": {\n        \"deprovisioned\": {\n          \"action\":\"NONE\"\n        },\n        \"suspended\": {\n          \"action\":\"NONE\"\n        }\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.subjectNameId\"\n      },\n      \"format\": [\n          \"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified\"\n      ],\n      \"filter\": \"(\\\\S+@example\\\\.com)\",\n      \"matchType\": \"USERNAME\"\n    }\n  }\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Facebook IdP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\": \"FACEBOOK\",\n  \"name\": \"Facebook\",\n  \"status\": \"ACTIVE\",\n  \"protocol\": {\n    \"type\": \"OAUTH2\",\n    \"scopes\": [\n      \"public_profile\",\n      \"email\"\n    ],\n    \"credentials\": {\n      \"client\": {\n        \"client_id\": \"1565799993707161\",\n        \"client_secret\": \"9f86154a68278b62748f255e3e7db604\"\n      }\n    }\n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.email\",\n        \"type\": null\n      },\n      \"filter\": null,\n      \"matchType\": \"USERNAME\"\n    },\n    \"maxClockSkew\": 0\n  }\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Google IdP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\": \"GOOGLE\",\n  \"name\": \"Google\",\n  \"protocol\": {\n    \"type\": \"OIDC\",\n    \"scopes\": [\n      \"profile\",\n      \"email\",\n      \"openid\"\n    ],\n    \"credentials\": {\n      \"client\": {\n        \"client_id\": \"430731646638-sq6oeve9f6rpm2rne289nukind6f1qgk.apps.googleusercontent.com\",\n        \"client_secret\": \"kOgHsuPDawNDSkkaAKvv6SMh\"\n      }\n    }\n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.email\",\n        \"type\": null\n      },\n      \"filter\": null,\n      \"matchType\": \"USERNAME\"\n    },\n    \"maxClockSkew\": 0\n  }\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add LinkedIn IdP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\": \"LINKEDIN\",\n  \"name\": \"Linked In\",\n  \"protocol\": {\n    \"type\": \"OAUTH2\",\n    \"scopes\": [\n      \"r_basicprofile\",\n      \"r_emailaddress\"\n    ],\n    \"credentials\": {\n      \"client\": {\n        \"client_id\": \"123456789\",\n        \"client_secret\": \"kOgHsuPDawNDSkkaAKvv6SMh\"\n      }\n    }\n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.email\",\n        \"type\": null\n      },\n      \"filter\": null,\n      \"matchType\": \"USERNAME\"\n    },\n    \"maxClockSkew\": 0\n  }\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Microsoft IdP",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\": \"MICROSOFT\",\n  \"name\": \"Microsoft\",\n  \"protocol\": {\n    \"type\": \"OIDC\",\n    \"scopes\": [\n      \"openid\",\n      \"email\",\n      \"profile\",\n      \"https://graph.microsoft.com/User.Read\"\n    ],\n    \"credentials\": {\n      \"client\": {\n        \"client_id\": \"my-test-client-id\",\n        \"client_secret\": \"my-test-client-secret\"\n      }\n    }\n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.userPrincipalName\",\n        \"type\": null\n      },\n      \"filter\": null,\n      \"matchType\": \"USERNAME\"\n    },\n    \"maxClockSkew\": 0\n  }\n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get IdP",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/api/v1/idps/{{idpId}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps",
+						"{{idpId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List IdPs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{url}}/api/v1/idps",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update IdP",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"0oa1k5d68qR2954hb0g4\",\n  \"type\": \"SAML2\",\n  \"name\": \"Example IdP\",\n  \"status\": \"ACTIVE\",\n  \"protocol\": {\n    \"type\": \"SAML2\",\n    \"endpoints\": {\n      \"sso\": {\n        \"url\": \"https://idp.example.com/saml2/sso\",\n        \"binding\": \"HTTP-REDIRECT\",\n        \"destination\": \"https://idp.example.com/saml2/sso\"\n      },\n      \"acs\": {\n        \"binding\": \"HTTP-POST\",\n        \"type\": \"INSTANCE\"\n      }\n    },\n    \"algorithms\": {\n      \"request\": {\n        \"signature\": {\n          \"algorithm\": \"SHA-256\",\n          \"scope\": \"REQUEST\"\n        }\n      },\n      \"response\": {\n        \"signature\": {\n          \"algorithm\": \"SHA-256\",\n          \"scope\": \"ANY\"\n        }\n      }\n    },\n    \"credentials\": {\n      \"trust\": {\n        \"issuer\": \"https://idp.example.com\",\n        \"audience\": \"https://www.okta.com/saml2/service-provider/spCQJRNaaxs7ANqKBO7M\",\n        \"kid\": \"74bb2164-e0c8-4457-862b-7c29ba6cd2c9\"\n      }\n    } \n  },\n  \"policy\": {\n    \"provisioning\": {\n      \"action\": \"AUTO\",\n      \"profileMaster\": true,\n      \"groups\": {\n        \"action\": \"NONE\"\n      }\n    },\n    \"accountLink\": {\n      \"filter\": null,\n      \"action\": \"AUTO\"\n    },\n    \"subject\": {\n      \"userNameTemplate\": {\n        \"template\": \"idpuser.subjectNameId\",\n        \"type\": \"BUILT_IN\"\n      },\n      \"format\": [\n        \"urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified\"\n      ],\n      \"filter\": null,\n      \"matchType\": \"USERNAME\"\n    },\n    \"maxClockSkew\": 120000\n  } \n}"
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps/{{idpId}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps",
+						"{{idpId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete IdP",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "SSWS {{apikey}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/api/v1/idps/{{idpId}}",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"idps",
+						"{{idpId}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "2a1b9244-4fc4-4864-8099-671f85a4ea79",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "9ffcedfc-82da-47c3-987c-ca5f51e01fc6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
