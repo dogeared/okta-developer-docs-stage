@@ -91,12 +91,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/3rd_party_notices/Okta_SWA_IE/</loc>
+    <lastmod>2019-03-22T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/3rd_party_notices/Okta_SWA_Firefox/</loc>
     <lastmod>2019-03-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/3rd_party_notices/Okta_SWA_Safari/</loc>
+    <lastmod>2019-03-22T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/3rd_party_notices/Okta_Sign-In_Widget/</loc>
     <lastmod>2019-03-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -111,27 +121,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/3rd_party_notices/Okta_SWA_IE/</loc>
-    <lastmod>2019-03-22T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/3rd_party_notices/Okta_Sign-In_Widget/</loc>
-    <lastmod>2019-03-22T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/3rd_party_notices/Web_App_Client_JS/</loc>
     <lastmod>2019-03-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/3rd_party_notices/Windows_Shared/</loc>
+    <loc>https://developer.okta.com/3rd_party_notices/Windows_Verify/</loc>
     <lastmod>2019-03-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/3rd_party_notices/Windows_Verify/</loc>
+    <loc>https://developer.okta.com/3rd_party_notices/Windows_Shared/</loc>
     <lastmod>2019-03-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -151,11 +151,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/about-the-authors/</loc>
-    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/books/api-security/acknowledgments/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -166,17 +161,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/api-keys/choosing-a-type/</loc>
-    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/books/api-security/api-keys/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/books/api-security/about-the-authors/</loc>
+    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/books/api-security/api-keys/keep-keys-private/</loc>
+    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/books/api-security/api-keys/other-options/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -191,7 +191,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/api-keys/other-options/</loc>
+    <loc>https://developer.okta.com/books/api-security/api-keys/choosing-a-type/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -206,18 +206,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/authz/attribute-based/</loc>
-    <lastmod>2019-12-18T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/books/api-security/authn/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/authz/hierarchical/</loc>
-    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/books/api-security/authz/attribute-based/</loc>
+    <lastmod>2019-12-18T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -231,12 +226,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/authz/takeaways/</loc>
+    <loc>https://developer.okta.com/books/api-security/authz/hierarchical/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/dos/how/</loc>
+    <loc>https://developer.okta.com/books/api-security/authz/takeaways/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -247,6 +242,11 @@
   </url>
   <url>
     <loc>https://developer.okta.com/books/api-security/dos/parting/</loc>
+    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/books/api-security/dos/how/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -266,6 +266,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/books/api-security/gateways/</loc>
+    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/books/api-security/foreword/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -276,17 +281,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/gateways/</loc>
-    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/books/api-security/gateways/management-platform/</loc>
-    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/books/api-security/gateways/problems-they-will-not-solve/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -296,7 +291,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/books/api-security/gateways/problems-they-will-not-solve/</loc>
+    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/books/api-security/</loc>
+    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/books/api-security/sanitizing/best-practices/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -311,11 +316,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/sanitizing/best-practices/</loc>
-    <lastmod>2019-02-14T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/books/api-security/sanitizing/common-attacks/</loc>
     <lastmod>2020-09-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -326,12 +326,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/sanitizing/sanitize-inputs/</loc>
+    <loc>https://developer.okta.com/books/api-security/sanitizing/reject-bad/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/sanitizing/reject-bad/</loc>
+    <loc>https://developer.okta.com/books/api-security/sanitizing/sanitize-inputs/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -361,17 +361,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/tls/how/</loc>
-    <lastmod>2020-03-02T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/books/api-security/tls/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/tls/key-exchange/</loc>
+    <loc>https://developer.okta.com/books/api-security/tls/how/</loc>
+    <lastmod>2020-03-02T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/books/api-security/tls/ssl-rating/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -381,12 +381,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/books/api-security/tls/ssl-rating/</loc>
+    <loc>https://developer.okta.com/books/api-security/tls/key-exchange/</loc>
     <lastmod>2019-02-14T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/angular/okta_angular_auth_js/</loc>
+    <loc>https://developer.okta.com/code/android/</loc>
     <lastmod>2020-10-14T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -396,7 +396,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/android/</loc>
+    <loc>https://developer.okta.com/code/angular/okta_angular_auth_js/</loc>
     <lastmod>2020-10-14T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -411,13 +411,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/code/dotnet/aspnetcore/</loc>
+    <lastmod>2020-09-24T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/code/dotnet/blazor/</loc>
     <lastmod>2020-09-28T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/dotnet/aspnetcore/</loc>
-    <lastmod>2020-09-24T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/code/dotnet/jwt-validation/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -428,11 +433,6 @@
   <url>
     <loc>https://developer.okta.com/code/dotnet/sample_application/</loc>
     <lastmod>2020-02-20T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/code/dotnet/jwt-validation/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -451,11 +451,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/ios/quickstart-appauth-swift/</loc>
-    <lastmod>2020-02-20T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/code/java/</loc>
     <lastmod>2020-10-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -466,7 +461,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/java/spring_security_saml/</loc>
+    <loc>https://developer.okta.com/code/ios/quickstart-appauth-swift/</loc>
     <lastmod>2020-02-20T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -476,12 +471,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/javascript/okta_auth_sdk/</loc>
-    <lastmod>2020-09-21T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/code/javascript/okta_auth_sdk_ref/</loc>
+    <loc>https://developer.okta.com/code/java/spring_security_saml/</loc>
     <lastmod>2020-02-20T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -491,7 +481,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/code/javascript/okta_auth_sdk/</loc>
+    <lastmod>2020-09-21T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/code/javascript/okta_sign-in_widget_ref/</loc>
+    <lastmod>2020-02-20T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/code/javascript/okta_auth_sdk_ref/</loc>
     <lastmod>2020-02-20T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -511,13 +511,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/php/simplesamlphp/</loc>
-    <lastmod>2020-07-20T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/code/python/</loc>
+    <lastmod>2020-02-20T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/python/</loc>
-    <lastmod>2020-02-20T05:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/code/php/simplesamlphp/</loc>
+    <lastmod>2020-07-20T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -541,6 +541,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/code/vue/</loc>
+    <lastmod>2020-10-06T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/code/react/okta_react_sign-in_widget/</loc>
     <lastmod>2020-10-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -551,8 +556,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/vue/</loc>
-    <lastmod>2020-10-06T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/code/vue/okta_vue_sign-in_widget/</loc>
+    <lastmod>2020-10-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -561,18 +566,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/code/vue/okta_vue_sign-in_widget/</loc>
-    <lastmod>2020-10-05T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/concepts/auth-servers/</loc>
+    <lastmod>2020-08-27T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/concepts/api-access-management/</loc>
     <lastmod>2020-08-21T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/concepts/auth-servers/</loc>
-    <lastmod>2020-08-27T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -586,18 +586,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/concepts/events-api-migration/</loc>
-    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/concepts/feature-lifecycle-management/</loc>
     <lastmod>2020-04-13T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/concepts/how-okta-works/</loc>
-    <lastmod>2020-09-22T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/concepts/events-api-migration/</loc>
+    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -606,8 +601,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/concepts/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/concepts/how-okta-works/</loc>
+    <lastmod>2020-09-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -621,8 +616,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/concepts/oauth-openid/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/concepts/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/concepts/okta-organizations/</loc>
+    <lastmod>2019-10-07T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -636,18 +636,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/concepts/okta-organizations/</loc>
-    <lastmod>2019-10-07T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/concepts/saml/faqs/</loc>
+    <lastmod>2020-05-27T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/concepts/oauth-openid/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/concepts/policies/</loc>
     <lastmod>2020-09-24T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/concepts/saml/faqs/</loc>
-    <lastmod>2020-05-27T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -661,17 +661,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/before-you-begin/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/concepts/scim/</loc>
     <lastmod>2020-06-30T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/concepts/social-login/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/before-you-begin/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -696,13 +696,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/next-steps/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/register-app-in-okta/</loc>
+    <lastmod>2019-10-01T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/register-app-in-okta/</loc>
-    <lastmod>2019-10-01T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/next-steps/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -746,16 +746,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/attribute-mapping/</loc>
-    <lastmod>2020-06-30T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/configure-app/</loc>
-    <lastmod>2020-06-16T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/</loc>
     <lastmod>2020-07-27T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -763,6 +753,16 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/next-steps/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/attribute-mapping/</loc>
+    <lastmod>2020-06-30T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/configure-app/</loc>
+    <lastmod>2020-06-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -786,13 +786,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/test-scim-api/</loc>
-    <lastmod>2020-09-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-self-signed-jwt/</loc>
+    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/test-scim-app/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/test-scim-api/</loc>
+    <lastmod>2020-09-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -801,13 +801,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-self-signed-jwt/</loc>
+    <loc>https://developer.okta.com/docs/guides/build-self-signed-jwt/jwt-with-private-key/</loc>
     <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-self-signed-jwt/jwt-with-private-key/</loc>
-    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/test-scim-app/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -821,12 +821,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-self-signed-jwt/overview/</loc>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/before-you-begin/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/before-you-begin/</loc>
+    <loc>https://developer.okta.com/docs/guides/build-self-signed-jwt/overview/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -846,13 +846,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/overview/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/specify-your-settings/</loc>
+    <lastmod>2020-04-30T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/specify-your-settings/</loc>
-    <lastmod>2020-04-30T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/overview/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -871,11 +871,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/configure-access-policy/limit-scopes-clients-can-access/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/configure-access-policy/next-steps/</loc>
     <lastmod>2020-09-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -886,18 +881,28 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/configure-signon-policy/before-you-begin/</loc>
-    <lastmod>2020-09-22T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/configure-signon-policy/</loc>
     <lastmod>2020-09-01T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/configure-access-policy/limit-scopes-clients-can-access/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/configure-signon-policy/before-you-begin/</loc>
+    <lastmod>2020-09-22T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/configure-signon-policy/next-steps/</loc>
     <lastmod>2020-09-01T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/create-an-api-token/</loc>
+    <lastmod>2020-05-20T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -913,11 +918,6 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/create-an-api-token/create-the-token/</loc>
     <lastmod>2020-09-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/create-an-api-token/</loc>
-    <lastmod>2020-05-20T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -941,13 +941,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/custom-error-pages/edit-the-error-page/</loc>
-    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/custom-error-pages/</loc>
+    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/custom-error-pages/</loc>
-    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/custom-error-pages/edit-the-error-page/</loc>
+    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -961,23 +961,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/custom-error-pages/use-macros/</loc>
-    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/custom-url-domain/cloudflare/</loc>
     <lastmod>2020-10-06T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/custom-url-domain/enable-the-custom-domain/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/custom-url-domain/gather-information/</loc>
-    <lastmod>2020-08-25T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/custom-error-pages/use-macros/</loc>
+    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -988,6 +978,16 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/custom-url-domain/next-steps/</loc>
     <lastmod>2020-09-16T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/custom-url-domain/enable-the-custom-domain/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/custom-url-domain/gather-information/</loc>
+    <lastmod>2020-08-25T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1006,18 +1006,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-authz-server/create-authz-server/</loc>
-    <lastmod>2019-11-11T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/customize-authz-server/create-claims/</loc>
     <lastmod>2020-04-13T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-authz-server/create-rules-for-policy/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/customize-authz-server/create-authz-server/</loc>
+    <lastmod>2019-11-11T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1031,8 +1026,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/customize-authz-server/create-rules-for-policy/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/customize-authz-server/overview/</loc>
     <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-dynamic/dynamic-allowlist-org-as/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1041,18 +1046,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-dynamic/add-groups-claim-dynamic/</loc>
-    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/customize-tokens-dynamic/dynamic-allowlist-custom-as/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-dynamic/dynamic-allowlist-org-as/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-dynamic/add-groups-claim-dynamic/</loc>
+    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1063,6 +1063,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/customize-tokens-dynamic/next-steps/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-groups-claim/</loc>
+    <lastmod>2020-09-02T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1081,17 +1086,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-groups-claim/</loc>
-    <lastmod>2020-09-02T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/customize-tokens-groups-claim/next-steps/</loc>
-    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-groups-claim/overview/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1101,13 +1096,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-groups-claim/overview/</loc>
+    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/add-custom-claim/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/create-app-profile-attribute/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/next-steps/</loc>
+    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1116,7 +1116,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/next-steps/</loc>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/create-app-profile-attribute/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1127,11 +1132,6 @@
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/customize-tokens-returned-from-okta/request-token-claim/</loc>
-    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1151,8 +1151,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/static-allowlist/</loc>
-    <lastmod>2020-10-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/deploy-your-app/</loc>
+    <lastmod>2020-09-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1166,12 +1166,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/deploy-your-app/</loc>
+    <loc>https://developer.okta.com/docs/guides/deploy-your-app/java/</loc>
     <lastmod>2020-09-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/deploy-your-app/java/</loc>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/static-allowlist/</loc>
+    <lastmod>2020-10-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/deploy-your-app/mobile/</loc>
+    <lastmod>2020-09-23T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/deploy-your-app/overview/</loc>
     <lastmod>2020-09-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1181,18 +1191,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/deploy-your-app/mobile/</loc>
-    <lastmod>2020-09-23T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/email-customization/before-you-begin/</loc>
     <lastmod>2020-10-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/deploy-your-app/overview/</loc>
-    <lastmod>2020-09-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1201,18 +1201,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/email-customization/customize-email-templates/</loc>
-    <lastmod>2020-08-20T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/email-customization/</loc>
     <lastmod>2020-08-20T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/enable-cors/granting-cors/</loc>
-    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/email-customization/customize-email-templates/</loc>
+    <lastmod>2020-08-20T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1223,6 +1218,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/enable-cors/</loc>
     <lastmod>2020-03-24T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/enable-cors/granting-cors/</loc>
+    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1271,11 +1271,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/exchange-code-token/</loc>
-    <lastmod>2019-11-26T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -1283,6 +1278,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/next-steps/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/exchange-code-token/</loc>
+    <lastmod>2019-11-26T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1296,18 +1296,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/use-flow/</loc>
-    <lastmod>2020-07-27T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code/exchange-code-token/</loc>
-    <lastmod>2019-11-26T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/implement-auth-code/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/use-flow/</loc>
+    <lastmod>2020-07-27T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1316,13 +1311,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code/overview/</loc>
-    <lastmod>2020-09-04T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code/setup-app/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code/setup-app/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code/exchange-code-token/</loc>
+    <lastmod>2019-11-26T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1341,13 +1336,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/implement-client-creds/overview/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/implement-client-creds/next-steps/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-client-creds/overview/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code/overview/</loc>
+    <lastmod>2020-09-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1371,18 +1371,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-implicit/overview/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/implement-implicit/setup-app/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-implicit/use-flow/</loc>
-    <lastmod>2020-07-27T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-implicit/overview/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1416,6 +1411,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/implement-implicit/use-flow/</loc>
+    <lastmod>2020-07-27T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/implement-oauth-for-okta/create-oauth-app/</loc>
     <lastmod>2020-09-24T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -1431,6 +1431,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/implement-password/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/implement-oauth-for-okta/overview/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -1438,16 +1443,6 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/implement-oauth-for-okta/request-access-token/</loc>
     <lastmod>2020-09-30T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/implement-oauth-for-okta/scopes/</loc>
-    <lastmod>2020-09-24T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/implement-password/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1461,23 +1456,28 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-password/overview/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/implement-password/use-flow/</loc>
     <lastmod>2019-11-26T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/</loc>
-    <lastmod>2020-10-02T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-oauth-for-okta/scopes/</loc>
+    <lastmod>2020-09-24T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/implement-password/overview/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/mfa/activate-factor/</loc>
     <lastmod>2020-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/</loc>
+    <lastmod>2020-10-02T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1496,12 +1496,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/mfa/prerequisites/</loc>
+    <loc>https://developer.okta.com/docs/guides/mfa/next-steps/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/mfa/next-steps/</loc>
+    <loc>https://developer.okta.com/docs/guides/mfa/prerequisites/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1521,12 +1521,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/migrate-to-okta/bulk-migration-with-credentials/</loc>
+    <loc>https://developer.okta.com/docs/guides/migrate-to-okta/</loc>
     <lastmod>2020-09-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/migrate-to-okta/</loc>
+    <loc>https://developer.okta.com/docs/guides/migrate-to-okta/bulk-migration-with-credentials/</loc>
     <lastmod>2020-09-22T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1541,12 +1541,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/password-import-hook/check-against-user-store/</loc>
+    <loc>https://developer.okta.com/docs/guides/password-import-hook/check-authorization-header/</loc>
     <lastmod>2020-04-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/password-import-hook/check-authorization-header/</loc>
+    <loc>https://developer.okta.com/docs/guides/password-import-hook/check-against-user-store/</loc>
     <lastmod>2020-04-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1566,13 +1566,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/password-import-hook/overview/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/password-import-hook/next-steps/</loc>
+    <lastmod>2020-04-02T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/password-import-hook/next-steps/</loc>
-    <lastmod>2020-04-02T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/password-import-hook/overview/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1641,11 +1641,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/quickstart/register-app/</loc>
-    <lastmod>2020-10-02T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/quickstart/sign-in/</loc>
     <lastmod>2020-09-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -1656,13 +1651,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/quickstart/using-console/</loc>
+    <loc>https://developer.okta.com/docs/guides/quickstart/register-app/</loc>
     <lastmod>2020-10-02T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/refresh-tokens/get-refresh-token/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/quickstart/using-console/</loc>
+    <lastmod>2020-10-02T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1671,8 +1666,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/refresh-tokens/overview/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/refresh-tokens/get-refresh-token/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1681,7 +1676,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/request-user-consent/build-the-request/</loc>
+    <loc>https://developer.okta.com/docs/guides/refresh-tokens/overview/</loc>
     <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1691,8 +1686,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/request-user-consent/overview/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/request-user-consent/build-the-request/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1708,6 +1703,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/request-user-consent/troubleshooting/</loc>
     <lastmod>2019-12-09T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/request-user-consent/overview/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1731,18 +1731,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/revoke-tokens/revokeatrt/</loc>
-    <lastmod>2020-06-24T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/saml-tracer/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/saml-tracer/overview/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/revoke-tokens/revokeatrt/</loc>
+    <lastmod>2020-06-24T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1751,8 +1746,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/session-cookie/overview/</loc>
-    <lastmod>2020-09-04T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/set-up-event-hook/</loc>
+    <lastmod>2019-09-10T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1761,13 +1756,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/set-up-event-hook/</loc>
-    <lastmod>2019-09-10T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/saml-tracer/overview/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/set-up-event-hook/ongoing-delivery-of-events/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/session-cookie/overview/</loc>
+    <lastmod>2020-09-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1781,28 +1781,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/set-up-event-hook/verify-your-endpoint/</loc>
-    <lastmod>2020-06-19T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/before-you-begin/</loc>
     <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/configure-self-service-registration-policy/</loc>
-    <lastmod>2020-08-24T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/set-up-event-hook/verify-your-endpoint/</loc>
+    <lastmod>2020-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/customize-link-in-widget/</loc>
     <lastmod>2020-10-03T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/disable-security-image/</loc>
-    <lastmod>2020-08-24T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -1812,6 +1802,16 @@
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/next-steps/</loc>
+    <lastmod>2020-08-24T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/disable-security-image/</loc>
+    <lastmod>2020-08-24T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/set-up-self-service-registration/configure-self-service-registration-policy/</loc>
     <lastmod>2020-08-24T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1856,12 +1856,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sharing-cert/generate-new-credential/</loc>
+    <loc>https://developer.okta.com/docs/guides/sharing-cert/</loc>
     <lastmod>2020-07-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sharing-cert/</loc>
+    <loc>https://developer.okta.com/docs/guides/sharing-cert/generate-new-credential/</loc>
     <lastmod>2020-07-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -1886,13 +1886,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sharing-cert/update-target-app-with-kid/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/before-you-begin/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/before-you-begin/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sharing-cert/update-target-app-with-kid/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2081,22 +2081,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/clone-the-certificate/</loc>
-    <lastmod>2020-01-27T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/generate-a-csr/</loc>
     <lastmod>2019-10-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/</loc>
-    <lastmod>2019-10-17T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/clone-the-certificate/</loc>
+    <lastmod>2020-01-27T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/list-your-apps/</loc>
+    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/</loc>
     <lastmod>2019-10-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2106,18 +2101,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/publish-the-csr/</loc>
-    <lastmod>2019-10-17T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/sign-the-csr/</loc>
     <lastmod>2020-07-01T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/update-the-key-credential/</loc>
-    <lastmod>2020-07-01T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/publish-the-csr/</loc>
+    <lastmod>2019-10-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2126,13 +2116,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sms-customization/add-translation/</loc>
-    <lastmod>2020-08-25T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/update-the-key-credential/</loc>
+    <lastmod>2020-07-01T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sms-customization/before-you-begin/</loc>
-    <lastmod>2020-08-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-your-own-saml-csr/list-your-apps/</loc>
+    <lastmod>2019-10-17T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/sms-customization/add-translation/</loc>
+    <lastmod>2020-08-25T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2146,6 +2141,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/sms-customization/before-you-begin/</loc>
+    <lastmod>2020-08-19T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/sms-customization/next-steps/</loc>
     <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -2156,13 +2156,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/style-the-widget/customization-examples/</loc>
-    <lastmod>2020-09-17T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/style-the-widget/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/style-the-widget/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/style-the-widget/customization-examples/</loc>
+    <lastmod>2020-09-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2181,23 +2181,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/submit-app/create-guide/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/submit-app/faqs/</loc>
-    <lastmod>2020-05-07T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/submit-app/</loc>
     <lastmod>2020-07-27T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/submit-app/overview/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2206,8 +2191,23 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/submit-app/create-guide/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/submit-app/overview/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/submit-app/submission2-specific/</loc>
     <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/submit-app/faqs/</loc>
+    <lastmod>2020-05-07T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2256,11 +2256,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/updating-saml-cert/generate-new-key-credential/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/updating-saml-cert/get-app-info/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -2276,13 +2271,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/updating-saml-cert/revert-to-sha1/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/updating-saml-cert/update-key-credential/</loc>
+    <lastmod>2019-10-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/updating-saml-cert/update-key-credential/</loc>
-    <lastmod>2019-10-04T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/updating-saml-cert/generate-new-key-credential/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2293,6 +2288,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/validate-access-tokens/</loc>
     <lastmod>2019-09-10T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/updating-saml-cert/revert-to-sha1/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2321,8 +2321,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/apps/</loc>
-    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/api/event-types/</loc>
+    <lastmod>2020-04-24T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/reference/api/authorization-servers/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2331,13 +2336,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/event-types/</loc>
-    <lastmod>2020-04-24T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/api/apps/</loc>
+    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/factor-admin/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/api/authn/</loc>
+    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2351,7 +2356,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/authorization-servers/</loc>
+    <loc>https://developer.okta.com/docs/reference/api/factor-admin/</loc>
     <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2363,6 +2368,16 @@
   <url>
     <loc>https://developer.okta.com/docs/reference/api/</loc>
     <lastmod>2020-02-20T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/reference/api/factors/</loc>
+    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/reference/api/idps/</loc>
+    <lastmod>2020-10-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2386,23 +2401,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/factors/</loc>
-    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/reference/api/authn/</loc>
-    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/reference/api/oie-policy-types/</loc>
     <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/policy/</loc>
-    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/api/roles/</loc>
+    <lastmod>2020-09-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2411,13 +2416,23 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/reference/api/policy/</loc>
+    <lastmod>2020-10-12T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/reference/api/sessions/</loc>
     <lastmod>2020-09-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/idps/</loc>
-    <lastmod>2020-10-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/api/schemas/</loc>
+    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/reference/api/system-log/</loc>
+    <lastmod>2020-09-28T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2436,8 +2451,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/roles/</loc>
-    <lastmod>2020-09-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/error-codes/</loc>
+    <lastmod>2020-05-19T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/reference/api/users/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2446,23 +2466,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/zones/</loc>
-    <lastmod>2020-03-10T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/reference/error-codes/</loc>
-    <lastmod>2020-05-19T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/reference/import-hook/</loc>
     <lastmod>2020-01-31T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/schemas/</loc>
-    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/api/zones/</loc>
+    <lastmod>2020-03-10T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2481,8 +2491,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/system-log/</loc>
-    <lastmod>2020-09-28T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/okta-expression-language/</loc>
+    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2496,13 +2506,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/rl-additional-limits/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/releases-at-okta/</loc>
+    <lastmod>2020-08-24T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/releases-at-okta/</loc>
-    <lastmod>2020-08-24T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/rl-additional-limits/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2516,12 +2526,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/rl-clientbased/</loc>
+    <loc>https://developer.okta.com/docs/reference/rl-global-enduser/</loc>
     <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/rl-global-enduser/</loc>
+    <loc>https://developer.okta.com/docs/reference/rl-clientbased/</loc>
     <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2532,11 +2542,6 @@
   </url>
   <url>
     <loc>https://developer.okta.com/docs/reference/rl-global-other-endpoints/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/reference/rl-previous/</loc>
     <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2556,6 +2561,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/reference/rl-previous/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/reference/social-settings/</loc>
     <lastmod>2020-09-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -2571,17 +2581,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/okta-expression-language/</loc>
-    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-24/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/reference/token-hook/</loc>
+    <lastmod>2020-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2016-25/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2016-24/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2596,12 +2606,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-29/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2016-28/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-28/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2016-29/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2616,22 +2626,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-33/</loc>
-    <lastmod>2019-05-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/reference/token-hook/</loc>
-    <lastmod>2020-05-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2016-34/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-35/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2016-33/</loc>
     <lastmod>2019-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2641,13 +2641,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-39/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2016-35/</loc>
+    <lastmod>2019-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2016-37/</loc>
     <lastmod>2019-05-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2016-39/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2661,11 +2666,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-46/</loc>
-    <lastmod>2019-05-08T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2016-43/</loc>
     <lastmod>2019-10-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -2676,12 +2676,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-47/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2016-46/</loc>
     <lastmod>2019-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2016-51/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2016-47/</loc>
     <lastmod>2019-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2696,13 +2696,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/reference/api/users/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-02/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2016-51/</loc>
+    <lastmod>2019-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2711,12 +2706,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-03/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-04/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2017-02/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2726,7 +2716,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-10/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2017-04/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2017-03/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2742,6 +2737,11 @@
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2017-12/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2017-10/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -2786,13 +2786,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-23/</loc>
-    <lastmod>2019-10-04T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2017-24/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-24/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2017-23/</loc>
+    <lastmod>2019-10-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2816,23 +2816,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-29/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2017-30/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-30/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2017-29/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2017-31/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/release-notes/2017-32/</loc>
-    <lastmod>2019-10-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2848,6 +2843,11 @@
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2017-36/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2017-32/</loc>
+    <lastmod>2019-10-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2936,13 +2936,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2018-09/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2018-10/</loc>
+    <lastmod>2020-09-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2018-10/</loc>
-    <lastmod>2020-09-15T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2018-09/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -2986,17 +2986,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2018-22/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2018-23/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2018-24/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2018-22/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -3006,7 +3001,7 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2018-27/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2018-24/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -3016,12 +3011,17 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2018-29/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2018-27/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2018-31/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2018-29/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -3086,6 +3086,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/release-notes/2019-01-0/</loc>
+    <lastmod>2019-09-17T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/release-notes/2018-49/</loc>
     <lastmod>2019-09-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -3101,11 +3106,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-01-0/</loc>
-    <lastmod>2019-09-17T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-01-2/</loc>
     <lastmod>2019-09-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -3116,18 +3116,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-03-0/</loc>
-    <lastmod>2019-09-17T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-03-1/</loc>
     <lastmod>2019-09-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-03-2/</loc>
-    <lastmod>2019-05-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2019-03-0/</loc>
+    <lastmod>2019-09-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3136,17 +3131,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/release-notes/2019-03-2/</loc>
+    <lastmod>2019-05-08T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-04-0/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-04-1/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2019-04-2/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-04-2/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2019-04-1/</loc>
     <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -3176,12 +3176,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-06-3/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2019-06-4/</loc>
     <lastmod>2019-07-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-06-4/</loc>
+    <loc>https://developer.okta.com/docs/release-notes/2019-06-3/</loc>
     <lastmod>2019-07-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -3193,11 +3193,6 @@
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-07-2/</loc>
     <lastmod>2020-08-21T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-08-0/</loc>
-    <lastmod>2019-08-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3216,6 +3211,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/release-notes/2019-08-0/</loc>
+    <lastmod>2019-08-16T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-09-0/</loc>
     <lastmod>2019-09-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -3231,13 +3231,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-09-4/</loc>
-    <lastmod>2019-10-02T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2019-10-0/</loc>
+    <lastmod>2019-10-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-10-0/</loc>
-    <lastmod>2019-10-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2019-09-4/</loc>
+    <lastmod>2019-10-02T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3251,18 +3251,8 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-11-0/</loc>
-    <lastmod>2019-11-26T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-11-1/</loc>
     <lastmod>2019-11-12T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-11-2/</loc>
-    <lastmod>2019-11-21T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3271,13 +3261,23 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2019-12-0/</loc>
-    <lastmod>2019-12-11T05:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2019-11-0/</loc>
+    <lastmod>2019-11-26T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2019-11-2/</loc>
+    <lastmod>2019-11-21T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2019-12-1/</loc>
     <lastmod>2019-12-18T05:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2019-12-0/</loc>
+    <lastmod>2019-12-11T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3296,23 +3296,23 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2020-02-1/</loc>
-    <lastmod>2020-02-20T05:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2020-02-2/</loc>
     <lastmod>2020-02-26T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2020-03-0/</loc>
-    <lastmod>2020-09-15T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2020-02-1/</loc>
+    <lastmod>2020-02-20T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2020-03-1/</loc>
     <lastmod>2020-03-16T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2020-03-0/</loc>
+    <lastmod>2020-09-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3326,23 +3326,23 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2020-04-1/</loc>
-    <lastmod>2020-04-15T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2020-04-2/</loc>
     <lastmod>2020-04-28T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2020-05-0/</loc>
-    <lastmod>2020-05-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2020-04-1/</loc>
+    <lastmod>2020-04-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2020-05-1/</loc>
     <lastmod>2020-05-13T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2020-05-0/</loc>
+    <lastmod>2020-05-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3356,11 +3356,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2020-06-1/</loc>
-    <lastmod>2020-06-11T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/release-notes/2020-06-2/</loc>
     <lastmod>2020-06-18T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -3368,6 +3363,11 @@
   <url>
     <loc>https://developer.okta.com/docs/release-notes/2020-07-0/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/release-notes/2020-06-1/</loc>
+    <lastmod>2020-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3406,13 +3406,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/2020-10-0/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/</loc>
+    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/release-notes/</loc>
-    <lastmod>2020-09-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/release-notes/2020-10-0/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3431,13 +3431,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/-/create-an-app-at-idp/</loc>
-    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/-/configure-idp-in-okta/</loc>
+    <lastmod>2020-07-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/-/configure-idp-in-okta/</loc>
-    <lastmod>2020-07-23T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/-/create-an-app-at-idp/</loc>
+    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3536,13 +3536,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/facebook/configure-idp-in-okta/</loc>
-    <lastmod>2020-07-23T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/facebook/create-an-app-at-idp/</loc>
+    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/facebook/create-an-app-at-idp/</loc>
-    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/facebook/configure-idp-in-okta/</loc>
+    <lastmod>2020-07-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3561,13 +3561,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/facebook/use-idp-to-sign-in/</loc>
-    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/google/before-you-begin/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/google/before-you-begin/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/facebook/use-idp-to-sign-in/</loc>
+    <lastmod>2020-10-03T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3581,11 +3581,6 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/google/next-steps/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/add-an-external-idp/google/create-authz-url/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -3593,6 +3588,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/add-an-external-idp/google/register-app-in-okta/</loc>
     <lastmod>2019-10-01T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/google/next-steps/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3606,22 +3606,22 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/linkedin/create-an-app-at-idp/</loc>
-    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/add-an-external-idp/linkedin/configure-idp-in-okta/</loc>
     <lastmod>2020-07-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/linkedin/create-authz-url/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/linkedin/create-an-app-at-idp/</loc>
+    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/add-an-external-idp/linkedin/next-steps/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/linkedin/create-authz-url/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -3656,13 +3656,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/microsoft/register-app-in-okta/</loc>
-    <lastmod>2019-10-01T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/microsoft/next-steps/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/microsoft/next-steps/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/microsoft/register-app-in-okta/</loc>
+    <lastmod>2019-10-01T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3681,13 +3681,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/oktatookta/create-authz-url/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/oktatookta/create-an-app-at-idp/</loc>
+    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/oktatookta/create-an-app-at-idp/</loc>
-    <lastmod>2019-08-05T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/oktatookta/create-authz-url/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3741,13 +3741,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/saml2/configure-idp-in-okta/</loc>
-    <lastmod>2020-07-23T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/saml2/before-you-begin/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/saml2/before-you-begin/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/add-an-external-idp/saml2/configure-idp-in-okta/</loc>
+    <lastmod>2020-07-23T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3876,13 +3876,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-custom-ui-mobile/react-native/handle-authentication-responses/</loc>
-    <lastmod>2019-09-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-custom-ui-mobile/react-native/create-an-okta-application/</loc>
+    <lastmod>2019-06-26T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-custom-ui-mobile/react-native/create-an-okta-application/</loc>
-    <lastmod>2019-06-26T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-custom-ui-mobile/react-native/handle-authentication-responses/</loc>
+    <lastmod>2019-09-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3901,18 +3901,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/-/next-steps/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/-/configure-app/</loc>
     <lastmod>2020-06-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/-/overview/</loc>
-    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/-/next-steps/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -3923,6 +3918,11 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/-/prepare-app/</loc>
     <lastmod>2020-06-16T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/build-provisioning-integration/-/overview/</loc>
+    <lastmod>2020-10-08T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4016,13 +4016,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/-/create-your-app/</loc>
-    <lastmod>2020-08-07T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/-/before-you-begin/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/-/before-you-begin/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/-/create-your-app/</loc>
+    <lastmod>2020-08-07T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4041,13 +4041,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/openidconnect/before-you-begin/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/-/test-your-app/</loc>
+    <lastmod>2020-04-30T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/-/test-your-app/</loc>
-    <lastmod>2020-04-30T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/openidconnect/before-you-begin/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4091,13 +4091,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/saml2/specify-your-settings/</loc>
-    <lastmod>2020-04-30T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/saml2/overview/</loc>
+    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/build-sso-integration/saml2/overview/</loc>
-    <lastmod>2020-08-21T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/build-sso-integration/saml2/specify-your-settings/</loc>
+    <lastmod>2020-04-30T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4351,12 +4351,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/-/use-static-group-allowlist-org-as/</loc>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/-/use-static-group-allowlist-custom-as/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/-/use-static-group-allowlist-custom-as/</loc>
+    <loc>https://developer.okta.com/docs/guides/customize-tokens-static/-/use-static-group-allowlist-org-as/</loc>
     <lastmod>2020-09-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -4416,13 +4416,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/find-your-app-credentials/-/findcreds/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/enable-cors/-/testing/</loc>
+    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/enable-cors/-/testing/</loc>
-    <lastmod>2020-06-15T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/find-your-app-credentials/-/findcreds/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4446,13 +4446,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/-/overview/</loc>
-    <lastmod>2020-09-04T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/-/next-steps/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/-/next-steps/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-auth-code-pkce/-/overview/</loc>
+    <lastmod>2020-09-04T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4496,13 +4496,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-client-creds/-/overview/</loc>
-    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-client-creds/-/next-steps/</loc>
+    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/implement-client-creds/-/next-steps/</loc>
-    <lastmod>2019-06-11T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/implement-client-creds/-/overview/</loc>
+    <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4601,23 +4601,23 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/mfa/-/activate-factor/</loc>
-    <lastmod>2020-06-11T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
     <loc>https://developer.okta.com/docs/guides/implement-password/-/use-flow/</loc>
     <lastmod>2019-11-26T05:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/mfa/-/enroll-factor/</loc>
+    <loc>https://developer.okta.com/docs/guides/mfa/-/activate-factor/</loc>
     <lastmod>2020-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/mfa/-/create-test-user/</loc>
     <lastmod>2020-06-25T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://developer.okta.com/docs/guides/mfa/-/enroll-factor/</loc>
+    <lastmod>2020-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4656,6 +4656,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/mfa/ga/enroll-factor/</loc>
+    <lastmod>2020-06-11T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/mfa/ga/next-steps/</loc>
     <lastmod>2020-07-09T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -4666,18 +4671,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/mfa/ga/enroll-factor/</loc>
+    <loc>https://developer.okta.com/docs/guides/mfa/ga/set-up-org/</loc>
     <lastmod>2020-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://developer.okta.com/docs/guides/mfa/ga/set-up-postman/</loc>
     <lastmod>2020-06-26T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/mfa/ga/set-up-org/</loc>
-    <lastmod>2020-06-11T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -4741,12 +4741,12 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/password-import-hook/-/check-against-user-store/</loc>
+    <loc>https://developer.okta.com/docs/guides/password-import-hook/-/check-authorization-header/</loc>
     <lastmod>2020-04-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/password-import-hook/-/check-authorization-header/</loc>
+    <loc>https://developer.okta.com/docs/guides/password-import-hook/-/check-against-user-store/</loc>
     <lastmod>2020-04-17T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
@@ -5481,13 +5481,18 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/react-native/get-user-info/</loc>
+    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/react-native/define-callback/</loc>
     <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/react-native/get-user-info/</loc>
-    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/react-native/next-steps/</loc>
+    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5498,11 +5503,6 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/react-native/stay-signed-in/</loc>
     <lastmod>2019-06-19T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-mobile-app/react-native/next-steps/</loc>
-    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5671,13 +5671,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-spa/vue/add-signin-button/</loc>
-    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-into-spa/react/user-info/</loc>
+    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-spa/react/user-info/</loc>
-    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-into-spa/vue/add-signin-button/</loc>
+    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5786,6 +5786,11 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
+    <loc>https://developer.okta.com/docs/guides/sign-into-web-app/aspnet/get-user-info/</loc>
+    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
     <loc>https://developer.okta.com/docs/guides/sign-into-web-app/aspnet/define-callback/</loc>
     <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
@@ -5793,11 +5798,6 @@
   <url>
     <loc>https://developer.okta.com/docs/guides/sign-into-web-app/aspnet/next-steps/</loc>
     <lastmod>2020-09-16T04:00:00.000Z</lastmod>
-    <changefreq>daily</changefreq>
-  </url>
-  <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-web-app/aspnet/get-user-info/</loc>
-    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
@@ -5951,13 +5951,13 @@
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-web-app/nodeexpress/get-user-info/</loc>
-    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-into-web-app/nodeexpress/next-steps/</loc>
+    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
-    <loc>https://developer.okta.com/docs/guides/sign-into-web-app/nodeexpress/next-steps/</loc>
-    <lastmod>2020-09-16T04:00:00.000Z</lastmod>
+    <loc>https://developer.okta.com/docs/guides/sign-into-web-app/nodeexpress/get-user-info/</loc>
+    <lastmod>2019-06-19T04:00:00.000Z</lastmod>
     <changefreq>daily</changefreq>
   </url>
   <url>
